@@ -14,19 +14,19 @@ If a number is divisible by 5, log “Buzz.”
 
 If a number is divisible by both 3 and 5, log “Fizz Buzz.”
 
-If a number is not divisible by either 3 or 5, log the number.*/ 
+If a number is not divisible by either 3 or 5, log the number.*/
 
 
 //for( let i = 0; i < 101; i++){
-   // console.log(i);
+// console.log(i);
 //if(i % 3 === 0 && i % 5 === 0){
-  //  console.log("Fizz Buzz")
+//  console.log("Fizz Buzz")
 //} else if( i % 5 === 0){
-  //  console.log("Buzz")
+//  console.log("Buzz")
 //} else if (i % 3 === 0){
-    //console.log("Fizz")
+//console.log("Fizz")
 //}else{
-    //console.log(i)
+//console.log(i)
 //}
 //}
 
@@ -74,14 +74,22 @@ if(n <= 1){
 
 //Part 3 Feeling Loopy *sobs*
 
-let csv ="ID, Name, Occuptation, Age,";
+let csv = "ID, Name, Occuptation, Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor's Assistant,26";
 
 let cell1 = "";
 let cell2 = "";
 let cell3 = "";
 let cell4 = "";
 
+let firstCell = 1;
+
+for(let i = 0; i < csv.length; i++){
+
+    let letter = csv[i];
+}
 
 //for loop? with if and else if statements?? 
 
-console.log(cell1, cell2, cell3, cell4)
+console.log(cell1, cell2, cell3, cell4);
+
+
