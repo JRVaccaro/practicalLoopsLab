@@ -19,4 +19,7 @@ If a number is not divisible by either 3 or 5, log the number.*/
 
 for( let i = 0; i < 101; i++){
     console.log(i);
+if(i % 3 === 0){
+    console.log("Fizz")
+}
 }
