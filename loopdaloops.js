@@ -56,7 +56,7 @@ Test your loop with higher numbers and reference an online prime number table to
 
 Be careful! If you set n to a number too large, your loop could take a long time to process.*/
 
-let n = 3;
+/*let n = 3;
 
 let isPrime = true; 
 
@@ -68,6 +68,20 @@ if(n <= 1){
     if(n % i === 0){
         isPrime = false;
         break;
-        
+
 } console.log(isPrime)
-    }
+    }*/
+
+//Part 3 Feeling Loopy *sobs*
+
+let csv ="ID, Name, Occuptation, Age,";
+
+let cell1 = "";
+let cell2 = "";
+let cell3 = "";
+let cell4 = "";
+
+
+//for loop? with if and else if statements?? 
+
+console.log(cell1, cell2, cell3, cell4)
