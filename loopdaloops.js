@@ -81,15 +81,40 @@ let cell2 = "";
 let cell3 = "";
 let cell4 = "";
 
-let firstCell = 1;
+let selectedCell = 1;
 
 for(let i = 0; i < csv.length; i++){
 
     let letter = csv[i];
+
+if(letter === ','){
+    selectedCell++;
+
 }
 
-//for loop? with if and else if statements?? 
+else if (letter ==="\n"){
+    console.log(cell1, cell2, cell3, cell4);
 
+    cell1 = "";
+    cell2 = "";
+    cell3 = "";
+    cell4 = "";
+
+    selectedCell = 1;
+    
+}
+else if (selectedCell === 1){
+        cell1 += letter;
+
+    }
+else if (selectedCell === 2){
+        cell2 += letter;
+    
+} else if (selectedCell === 3){
+    cell3 += letter;
+}
+else {
+    cell4 += letter;
+}
 console.log(cell1, cell2, cell3, cell4);
-
-
+}
